@@ -50,6 +50,8 @@ class Player {
 
   prettyTime (timeInSeconds) {
     //Output string like M:SS
+    var timer = buzz.toTimer(timeInSeconds);
+    return timer;
   }
 }
 
